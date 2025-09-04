@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
@@ -9,6 +9,16 @@
     <Title>FakeData.Tr</Title>
     <Authors>Furkan Mehmet Turgut</Authors>
     <Description>FakeDataTR, .NET projelerinde test ve seed veri üretimi için Türkçe odaklı kapsamlı bir fake data kütüphanesidir.</Description>
+    <RepositoryUrl>https://github.com/furkanmturgut/FakeData.TR</RepositoryUrl>
+    <PackageTags>Data, DakeData, TR</PackageTags>
+    <PackageReadmeFile>faKeData.md</PackageReadmeFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\faKeData.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>

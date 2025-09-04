@@ -69,5 +69,40 @@ namespace FakeData.TR
         {
             return Products.Data[_random.Next(Products.Data.Count)];
         }
+
+        public static string Title()
+        {
+            return Titles.Data[_random.Next(Titles.Data.Count)];
+        }
+
+        public static string Content()
+        {
+            return BlogContents.Data[_random.Next(BlogContents.Data.Count)];
+        }
+
+        public static string Website()
+        {
+            return Websites.Data[_random.Next(Websites.Data.Count)];
+        }
+
+        public static string EmailRandom()
+        {
+            return Emails.Data[_random.Next(Emails.Data.Count)];
+        }
+
+        public static string Username()
+        {
+            return Usernames.Data[_random.Next(Usernames.Data.Count)];
+        }
+
+        public static string Profession()
+        {
+            return Professions.Data[_random.Next(Professions.Data.Count)];
+        }
+
+        public static string Department()
+        {
+            return Departments.Data[_random.Next(Departments.Data.Count)];
+        }
     }
 }
