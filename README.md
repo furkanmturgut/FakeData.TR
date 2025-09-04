@@ -23,8 +23,21 @@ Paketi kullanarak rastgele veri üretebilir, test ortamlarını, demo projelerin
   - Şehir, Ülke
 - **Ürün**
   - Ürün adı
+- **Blog**
+  - Blog Başlık
+  - Blog İçerik
+- **Web Sitesi Bilgileri** 
+  - Web siteleri 
+  - E-Posta Adresleri
+  - Kullanıcı Adları 
+- **Meslek&Departman**
+  - Meslekler
+  - Departmanlar 
+	 
 
 ---
+## Kullanım
+FakeData.TR.FakeData.City()
 
 ## Kurulum
 
@@ -32,3 +45,5 @@ NuGet üzerinden yükleyebilirsiniz:
 
 ```bash
 Install-Package FakeDataTR
+
+
